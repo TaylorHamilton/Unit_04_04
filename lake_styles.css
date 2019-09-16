@@ -1,0 +1,109 @@
+﻿/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: Taylor Hamilton
+   Date: 9/13/2019
+   
+   Filename: lake_styles.css
+
+*/
+@charset "utf-8";
+@font-face{
+   font-family:Champagne;
+   src:url(cac_champagne.ttf) format('ttf'),
+   url(cac_champagne.woff) format('woff'),
+   url(cac_champagne.woff2) format('woff2');
+}
+@font-face{
+   font-family:DobkinPlain;
+   src:url(DobkinPlain.ttf) format('ttf'),
+   url(DobkinPlain.woff) format('woff'),
+   url(DobkinPlain.woff2) format('woff2');
+}
+/* Structural Styles */
+
+html{
+   background-color: tan;
+}
+#nav{
+   background-color: rgb(100, 41, 100);
+   padding-bottom: 2px;
+}
+footer{
+   color: white;
+   background-color: rgb(46, 41, 41);
+   font-size: 0.8em;
+   padding-top: 0px;
+   padding-bottom: 1px;
+   text-align: center;
+}
+Body{
+   font-family: DobkinPlain,sans-serif;
+   background-color: bisque;
+}
+/* Section Style */
+section>h1{
+   font-family: Champagne, sans-serif;
+   font-size: 40px
+
+}
+body>section#rightcol{
+   margin-right: 0px;
+}
+section#leftcol{
+   margin-right: 0px;
+}
+section#rightcol{
+   background-color:rgb(224, 161, 161);
+   margin-right: 0px;
+   margin-left: 0px;
+   padding-bottom: 5em;
+}
+#rightcol ul{
+   list-style-type: none;
+   color: rgba(8, 5, 5, 0.808);
+}
+#rightcol h2{
+   color: black;
+   font-family: Champagne, sans-serif;
+   font-size: 2em;
+   text-align: center;
+}
+blockquote{
+   quotes: ''' '"' ''' '"';
+}
+blockquote:before{
+   content: open-quote;
+}
+blockquote:after{
+   content: close-quote;
+}
+blockquote{
+   font-size: 1.4em;
+   padding-top: 50px;
+}
+/* Nav styles */
+#nav a:link, #nav a:visited{
+   text-decoration: none;
+   color: rgb(163, 151, 151);
+}
+/*aside styles*/
+body aside:nth-of-type(2) h1{
+   text-align: center;
+}
+body aside:nth-of-type(2) h2{
+   font-size: 15px;
+   font-family: Champagne,sans-serif;
+}
+body aside:nth-of-type(2){
+   background-color: orange;
+}
+body aside:nth-of-type(1){
+   background-color: orangered;
+}
+body aside:nth-of-type(1) h1{
+   text-align: center;
+}
