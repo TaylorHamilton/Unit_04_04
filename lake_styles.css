@@ -43,6 +43,7 @@ footer{
 Body{
    font-family: Champagne,sans-serif;
    background-color: bisque;
+   font-size: 1.2em;
 }
 /* Section Style */
 section>h1{
@@ -60,7 +61,7 @@ section#rightcol{
    background-color:rgb(224, 161, 161);
    margin-right: 0px;
    margin-left: 0px;
-   padding-bottom: 7em;
+   padding-bottom: 1.5em;
 }
 #rightcol ul{
    list-style-type: none;
